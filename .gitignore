@@ -1,0 +1,24 @@
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Ignore ONLY Lib inside khanh_toxic
+khanh_toxic/Lib/
+
+# Optional: ignore other venv parts if needed
+khanh_toxic/Scripts/
+khanh_toxic/Include/
+khanh_toxic/share/
+khanh_toxic/Lib/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Chainlit cache
+.chainlit/
+.files/
+
+# OS
+.DS_Store
+Thumbs.db

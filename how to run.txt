@@ -1,0 +1,15 @@
+1. chạy môi trường 
+new terminal tại folder chứa thư mục môi trường khánh_toxic
+
+chạy: 
++, Set-ExecutionPolicy -Scope CurrentUser -ExecutionPolicy RemoteSigned
+
++, khanh_toxic\Scripts\Activate.ps1
+
+2. cd vào thư mục app
++, cd app
+
+3. chạy chainlit, chạy file app.py
++, chainlit run app.py -w
+
+=> chạy các +, từ trên xuống dưới
